@@ -892,6 +892,13 @@ SehatAI is built on the shoulders of giants. We're grateful to the maintainers o
 
 If you find SehatAI helpful, please consider giving it a star! ⭐
 
+<a href="https://star-history.com/#TheNandinee/SehatAI&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=TheNandinee/SehatAI&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=TheNandinee/SehatAI&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=TheNandinee/SehatAI&type=Date" />
+  </picture>
+</a>
 
 ---
 
