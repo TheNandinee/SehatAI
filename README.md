@@ -39,7 +39,7 @@
 - [Contributing](#-contributing)
 - [Roadmap](#-roadmap)
 - [License](#-license)
-- [Acknowledgments](#-acknowledgments)
+- [Meet The Team](#-meet-the-team)
 
 ---
 
