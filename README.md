@@ -892,7 +892,7 @@ SehatAI is built on the shoulders of giants. We're grateful to the maintainers o
 
 If you find SehatAI helpful, please consider giving it a star! ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=TheNandinee/SehatAI&type=Date)](https://star-history.com/#TheNandinee/SehatAI&Date)
+[![Star History Chart](https://www.star-history.com/#TheNandinee/SehatAI&type=date&legend=top-left)](https://star-history.com/#TheNandinee/SehatAI&Date)
 
 ---
 
