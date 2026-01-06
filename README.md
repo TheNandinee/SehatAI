@@ -774,11 +774,6 @@ kubectl get services -n sehatai
 | User Satisfaction | > 4.5/5 | 4.7/5 |
 | Concurrent Users Supported | 1000+ | 1200 |
 
-### Monitoring Dashboard
-
-Access real-time metrics at:
-- Grafana: `http://localhost:3000`
-- Prometheus: `http://localhost:9090`
 
 ---
 
