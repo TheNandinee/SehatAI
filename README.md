@@ -869,12 +869,14 @@ copies or substantial portions of the Software.
 
 ---
 
-## 🙏 Acknowledgments
+## 👥 Meet the Team
 
-### Contributors
+SehatAI is built through collaborative engineering, combining expertise in AI and Full Stack Development.
 
-Special thanks to all contributors who have helped make SehatAI better:
-- [@TheNandinee](https://github.com/TheNandinee) - Project Lead & Core Developer
+| **[Nandinee](https://github.com/TheNandinee)** | **[Paridhi Sharma](https://github.com/theparidhisharma)** |
+| :---: | :---: |
+| **Project Lead & Core Developer** | **Full Stack Developer** |
+| Architected the AI logic, LLM integration, and system design. | Developed the frontend interface and optimized full-stack integration. |
 
 ### Libraries & Tools
 
