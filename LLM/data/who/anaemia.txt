@@ -1,0 +1,16 @@
+SOURCE: World Health Organization (WHO) – Fact Sheet
+TOPIC: Anaemia
+
+Anaemia is a condition in which the number of red blood cells or the concentration of haemoglobin is insufficient to meet the body's physiological needs.
+
+Common symptoms include fatigue, weakness, dizziness, shortness of breath, pale skin, and reduced physical performance.
+
+Iron deficiency is the most common cause of anaemia, though it can also result from infections, chronic diseases, nutritional deficiencies, or inherited conditions.
+
+Anaemia is particularly prevalent among women of reproductive age, children, and pregnant individuals.
+
+Diagnosis is typically made through blood tests measuring haemoglobin levels.
+
+Prevention and treatment depend on the underlying cause and may include dietary improvements, iron supplementation, treatment of infections, or medical care for chronic conditions.
+
+---

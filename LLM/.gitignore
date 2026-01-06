@@ -1,0 +1,75 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# --------------------
+# Virtual Environments
+# --------------------
+venv/
+.env/
+.env.*
+.venv/
+
+# --------------------
+# OS / Editor junk
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --------------------
+# Logs
+# --------------------
+logs/
+*.log
+
+# --------------------
+# Data & Caches (IMPORTANT)
+# --------------------
+data/embeddings_cache.json
+feedback/failure_memory.jsonl
+
+# If you ever add large datasets
+data/stress/
+data/raw/
+data/processed/
+
+# --------------------
+# Model Artifacts
+# --------------------
+*.bin
+*.pt
+*.ckpt
+*.h5
+
+# --------------------
+# FastAPI / Uvicorn
+# --------------------
+*.pid
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Build / Packaging
+# --------------------
+build/
+dist/
+*.egg-info/
+
+# --------------------
+# Security (DO NOT COMMIT)
+# --------------------
+*.key
+*.pem
+*.crt

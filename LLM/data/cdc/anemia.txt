@@ -1,0 +1,16 @@
+SOURCE: Centers for Disease Control and Prevention (CDC)
+TOPIC: Anemia
+
+Anemia is a condition in which the blood lacks enough healthy red blood cells or hemoglobin to carry adequate oxygen to body tissues.
+
+Symptoms commonly include fatigue, weakness, dizziness, shortness of breath, pale skin, and reduced ability to concentrate.
+
+Iron-deficiency anemia is the most common type and may result from inadequate dietary intake, blood loss, or increased iron needs during pregnancy.
+
+Certain populations, including young children, pregnant individuals, and people with chronic diseases, are at higher risk.
+
+Diagnosis is typically made through blood tests measuring hemoglobin and iron levels.
+
+Treatment depends on the cause and may include dietary changes, iron supplementation, or medical treatment of underlying conditions.
+
+---
