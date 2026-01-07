@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: sehatai-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=production
+    networks:
+      - sehatai-net
+
+  frontend:
+    build: ./frontend
+    container_name: sehatai-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - sehatai-net
+
+networks:
+  sehatai-net:
+    driver: bridge
