@@ -50,7 +50,7 @@ import {
 
 // --- CONFIGURATION ---
 // Set this to true if you are running the python backend
-const USE_REAL_API = false; 
+const USE_REAL_API = true; 
 const API_BASE_URL = "http://localhost:8000/api/v1";
 
 // --- TYPES ---
@@ -438,7 +438,7 @@ const DashboardView = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-900/50 to-indigo-900/50"></div>
                 <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-cyan-500 rounded-full blur-[80px] opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
                 <div className="relative z-10 p-8 h-full flex flex-col justify-between">
-                  <div><div className="flex items-center gap-2 mb-2 text-white/80 text-xs font-bold uppercase tracking-widest"><Sparkles size={12} /> SehatAI Plus</div><h3 className="text-2xl font-bold text-white mb-2">Speak to a Doctor</h3><p className="text-indigo-200 text-sm">Connect with a real specialist in minutes.</p></div><Button className="w-full bg-white text-indigo-950 hover:bg-white/90 border-none shadow-none" onClick={handleUpgrade} disabled={upgrading}>{upgrading ? 'Processing...' : 'Upgrade Now'}</Button>
+                  <div><div className="flex items-center gap-2 mb-2 text-white/80 text-xs font-bold uppercase tracking-widest"><Sparkles size={12} /> SehatAI Plus</div><h3 className="text-2xl font-bold text-white mb-2">Speak to a Doctor</h3><p className="text-indigo-200 text-sm">Connect with a real specialist in minutes.</p></div><Button className="w-full bg-white text-indigo-950 hover:bg-grey/90 border-none shadow-none" onClick={handleUpgrade} disabled={upgrading}>{upgrading ? 'Processing...' : 'Upgrade Now'}</Button>
                 </div>
               </Card>
             ) : (

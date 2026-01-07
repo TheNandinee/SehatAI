@@ -1,18 +1,14 @@
-# Use official Python image
-FROM python:3.9-slim
+FROM python:3.10-slim
 
-# Set working directory
 WORKDIR /app
 
-# Copy requirements and install
-COPY requirements.txt .
+# Copy requirements first (better caching)
+COPY backend/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy backend code
-COPY main.py .
+# Copy entire repo so LLM/ and analyzer/ exist
+COPY . /app
 
-# Expose port
 EXPOSE 8000
 
-# Run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]

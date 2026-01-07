@@ -1,13 +1,20 @@
-version: '3.8'
-
 services:
   backend:
-    build: ./backend
+    build:
+      context: .              # Sets context to Repo Root so it can see LLM/ folder
+      dockerfile: backend/Dockerfile
     container_name: sehatai-backend
     ports:
       - "8000:8000"
     environment:
       - APP_ENV=production
+      # Add any keys your LLM/analyzer needs (e.g., HuggingFace, Pinecone)
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY} 
+    volumes:
+      # Optional: Hot reload your logic during dev
+      - ./LLM:/app/LLM
+      - ./analyzer:/app/analyzer
     networks:
       - sehatai-net
 
